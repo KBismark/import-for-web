@@ -1,0 +1,34 @@
+{
+  "name": "import-for-web",
+  "version": "0.0.1",
+  "main": "index.js",
+  "type": "commonjs",
+  "bin": "./bin/cli.js",
+  "dependencies": {
+    "terser": "^5.18.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node minify.js"
+  },
+  "author": "Yamoah Bismark <bismarkkwabenayamoah@gmail.com>",
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "import-for-web",
+    "i4w",
+    "bundler",
+    "minify",
+    "minifier",
+    "javascript",
+    "ecmascript",
+    "es2015"
+  ],
+  "description": "A code modularization support for browsers and asynchronous module loader that supports ECMAScript import and export statements.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KBismark/import-for-web.git"
+  }
+}
