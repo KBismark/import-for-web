@@ -8,6 +8,7 @@ I4W also does not neglect the benefits of code cocantenation or bundling and min
 <p>
 Import-For-Web also employs strategies which keeps a good balance between your bundled code and the browser caching system. These strategies ensures that modules that have several dependents remain independent and are loaded independently. This allows such modules to be cached by the browser and hence, subsequent requests to load them are loaded from memomry. Modules that have not several dependents (non-independent modules) are bundled with their dependendencies which can also take advantage of browser caching systems. In the end, every module is loaded once but can be used accros pages.
 </p>    
+
 **Import-For-Web shines when employed with multi-page application systems**    
 <p>
 I4W can make your multi-page applications look exactly as single page applications. You can dynamically load required modules for new pages and build new pages dynamically.
