@@ -1,9 +1,17 @@
-# Import-For-Web
-A code modularization support for browsers and also an asynchronous module loader that supports ECMAScript import and export satements. I4W also supports dynamic module loading. All modules (including nested module dpendencies) requests are made simultaneouslly and does not wait for other modules to load before making the request to load other modules.    
-I4W also does not neglect the benefits of code cocantenation or bundling and minifications which reduces the number of HTTP requests made to load modules and their dependencies. I4w uses the `terser` minification tool under the hood for code minification.    
-Import-For-Web also employs strategies which keeps a good balance between your bundled code and the browser caching system. These strategies ensures that modules that have several dependents remain independent and are loaded independently. This allows such modules to be cached by the browser and hence, subsequent requests to load them are loaded from memomry. Modules that have not several dependents (non-independent modules) are bundled with their dependendencies which can also take advantage of browser caching systems. In the end, every module is loaded once but can be used accros pages.    
+<h1 align="center">Import-For-Web</h1>
+<p>
+A code modularization support for browsers and also an asynchronous module loader that supports ECMAScript import and export satements. I4W also supports dynamic module loading. All modules (including nested module dpendencies) requests are made simultaneouslly and does not wait for other modules to load before making the request to load other modules. 
+</p>   
+<p>
+I4W also does not neglect the benefits of code cocantenation or bundling and minifications which reduces the number of HTTP requests made to load modules and their dependencies. I4w uses the `terser` minification tool under the hood for code minification.
+</p>    
+<p>
+Import-For-Web also employs strategies which keeps a good balance between your bundled code and the browser caching system. These strategies ensures that modules that have several dependents remain independent and are loaded independently. This allows such modules to be cached by the browser and hence, subsequent requests to load them are loaded from memomry. Modules that have not several dependents (non-independent modules) are bundled with their dependendencies which can also take advantage of browser caching systems. In the end, every module is loaded once but can be used accros pages.
+</p>    
 **Import-For-Web shines when employed with multi-page application systems**    
+<p>
 I4W can make your multi-page applications look exactly as single page applications. You can dynamically load required modules for new pages and build new pages dynamically.
+</p>
 
 ## Available import statement syntax
 Source: [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)    
