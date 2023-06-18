@@ -714,5 +714,5 @@
       ];
     }
   );
-  I4W.require = I4W.import.from;
+  setFreezedObjectProperty(I4W, "require", I4W.import.from);
 })();
