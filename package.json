@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node minify.js"
+    "build": "node minify.js",
+    "postversion": "git push && git push --tags"
   },
   "author": "Yamoah Bismark <bismarkkwabenayamoah@gmail.com>",
   "license": "MIT",
