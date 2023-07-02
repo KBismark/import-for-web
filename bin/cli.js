@@ -3,7 +3,7 @@ let I4W = require("../index");
 
 const argv = process.argv.slice(2);
 if (argv.length != 1||!["parse","bundle"].includes(argv[0])) {
-    throw new Error("Command not found!.\nPlease use 'npx i4w parse' to convert your import statements and 'npx i4w bundle' to bundle your modules.")
+    throw new Error("Command not found!.\nPlease use 'npx import-for-web parse' to convert your import statements and 'npx i4w bundle' to bundle your modules.")
 }
 switch (argv[0]) {
     case "parse":
